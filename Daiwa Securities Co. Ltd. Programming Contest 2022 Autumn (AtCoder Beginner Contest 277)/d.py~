@@ -1,0 +1,11 @@
+n,m = map(int, input().split())
+
+def mod(n):
+    return int(n)%m
+
+l = list(map(mod, input().split()))
+l.sort()
+print(l)
+#for i in range(n):
+
+
